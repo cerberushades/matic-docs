@@ -263,9 +263,9 @@ Save the changes in `start.sh`.
 
 Open for editing `vi ~/.bor/data/bor/static-nodes.json`.
 
-In `static-nodes.json`, change the following:
+In `static-nodes.json`, replace "validator_machine_enodeID" and "validator_machine_ip:30303":
 
-* `"<replace with enode://validator_machine_enodeID@validator_machine_ip:30303>"` — the node ID and IP address of Bor set up on the validator machine.
+* `"<enode://validator_machine_enodeID@validator_machine_ip:30303>"` — the node ID and IP address of Bor set up on the validator machine.
 
   To get the node ID of Bor on the validator machine:
 
